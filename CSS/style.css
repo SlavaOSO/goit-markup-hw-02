@@ -1,0 +1,137 @@
+:root {
+  /* Основные шрифты */
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+
+  /* цвет текста контента */
+  --main-color: #212121;
+  --secondary-color: #757575;
+
+  /* толшина текста контента */
+  --text-regular: 400;
+  --text-medium: 500;
+  --text-bold: 700;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+/* header */
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-decoration: none;
+  cursor: default;
+}
+.logo-black {
+  color: #000;
+}
+
+.nav {
+  font-weight: var(--text-medium);
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: var(--main-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.nav-link {
+  font-weight: var(--text-medium);
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: var(--main-color);
+}
+
+.head-mail,
+.head-tel {
+  font-weight: var(--text-medium);
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-color);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.head-mail:hover,
+.head-mail:focus,
+.head-tel:hover,
+.head-tel:focus {
+  color: #2196f3;
+}
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: var(--text-bold);
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+
+  color: #fff;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.footer {
+  background: #2f303a;
+}
+
+.logo-white {
+  color: #fff;
+}
+
+.italic-no {
+  font-style: normal;
+}
+
+.map,
+.contact-style {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.map {
+  color: #fff;
+}
